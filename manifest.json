@@ -3,7 +3,8 @@
     "name": "TicketBot",
     "version": "1.1",
     "description": "Automate ticket purchasing on designated websites.",
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab", "notifications","scripting","storage"],
+    "host_permissions": ["<all_urls>"],
     "action": {
       "default_icon": "icon.png",
       "default_popup": "popup.html"

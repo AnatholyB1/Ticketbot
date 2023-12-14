@@ -4,12 +4,15 @@ document.addEventListener("DOMContentLoaded", function() {
   
     startAutomationButton.addEventListener("click", function() {
       const numTickets = document.getElementById("numTickets").value;
-      const refreshInterval = document.getElementById("refreshInterval").value;
+      const timeToReload = document.getElementById("timeToReload").value;
+      const zone = document.getElementById("zone").value;
   
       chrome.runtime.sendMessage({
         action: "startAutomation",
         numTickets: numTickets,
-        refreshInterval: refreshInterval
+        timeToReload: timeToReload,
+        zone: zone,
+
       });
     });
   });

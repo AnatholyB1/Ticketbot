@@ -1,0 +1,25 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+  <div class="popup-container">
+    <img src="icon.png" alt="TicketBot Logo" width="100" height="100">
+    <h2>TicketBot Settings</h2>
+    <label for="numTickets">Number of Tickets (max 5):</label>
+    <input type="number" id="numTickets" min="1" max="5" value="1">
+    <br>
+    <label for="refreshInterval">Ticket avability time</label>
+    <input type="time" id="refreshInterval"  value="00:00">
+    <br>
+    <button id="startAutomation">Start Automation</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

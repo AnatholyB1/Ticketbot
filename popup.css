@@ -1,0 +1,76 @@
+/* popup.css */
+:root {
+    --primary-color: #1e90ff;
+    --secondary-color: #000000;
+    background-color: transparent;
+  }
+
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    width: 300px;
+    height: auto;
+    border-radius: 20px; /* Adjust this value to get the desired roundness */
+    overflow: hidden; /* This will make sure the content inside also gets clipped */
+}
+
+
+
+
+  
+  .popup-container {
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:  20px;
+    gap: 10px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1e90ff;
+  }
+
+  label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1e90ff;
+  }
+
+    input {
+        padding: 10px;
+        border: 1px solid #1e90ff;
+        border-radius: 5px;
+        width: 100%;
+    }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e90ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+    button:hover {
+        background-color: #000000;
+        color: white;
+    }
+  
